@@ -1,0 +1,29 @@
+{
+  "name": "milkyway-3d",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Interactive 3D simulation of the Milky Way galaxy and the Solar System",
+  "scripts": {
+    "data": "node scripts/build-data.mjs",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@react-three/fiber": "9.8.2",
+    "next": "16.4.3",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "three": "0.186.1",
+    "zustand": "5.0.16"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "^19",
+    "@types/three": "0.186.0",
+    "sharp": "0.35.5",
+    "typescript": "~5.9.3"
+  }
+}
